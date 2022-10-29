@@ -136,7 +136,7 @@ draw_desk(x0, y0, x1, y1)
 while True:
     a = 1
     print('True - ход возможен False - ход невозможен ')
-    figure = input('Введите название фигуры: ферзь/ладья/слон/конь')
+    figure = input('Введите название фигуры: ферзь/ладья/слон/конь  ')
     if figure == 'ферзь':
         if queen_check(x0, y0, x1, y1):
             print('ход возможен')
@@ -160,7 +160,10 @@ while True:
             draw_desk(x0, y0, x1, y1)
 
     elif figure == 'конь':
-        print(knight_check(x0, y0, x1, y1))
+        if knight_check(x0, y0, x1, y1):
+            print('ход возможен')
+        else:
+            print('ход невозможен')
     else:
         a = 0
         print('Неверная фигура')
