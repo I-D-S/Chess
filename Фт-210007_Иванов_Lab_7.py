@@ -1,9 +1,9 @@
 import tkinter as tk
 from tkinter import Label
 
-print('x — номер вертикали (при счете слева направо), y — номер горизонтали (при счете снизу вверх)')
-print('x и y должны быть в отрезке [1; 8]')
-print('Введите координаты первой клетки')
+print('x — номер вертикали (при счете слева направо), y — номер горизонтали (при счете снизу вверх)\
+x и y должны быть в отрезке [1; 8]\nВведите координаты первой клетки')
+
 while True:
     try:
         x0 = int(input('Введите x0  '))
@@ -11,6 +11,9 @@ while True:
         break
     except AssertionError:
         print('Координата не в [1; 8]')
+    except ValueError:
+        print('Ошибка в значении')
+
 while True:
     try:
         y0 = int(input('Введите y0  '))
@@ -18,7 +21,11 @@ while True:
         break
     except AssertionError:
         print('Координата не в [1; 8]')
+    except ValueError:
+        print('Ошибка в значении')
+
 print('Введите координаты второй клетки')
+
 while True:
     try:
         x1 = int(input('Введите x1  '))
@@ -26,6 +33,9 @@ while True:
         break
     except AssertionError:
         print('Координата не в [1; 8]')
+    except ValueError:
+        print('Ошибка в значении')
+
 while True:
     try:
         y1 = int(input('Введите y1  '))
@@ -34,7 +44,8 @@ while True:
         break
     except AssertionError:
         print('Координата не в [1; 8] или вы ввели одинаковые клетки')
-
+    except ValueError:
+        print('Ошибка в значении')
 
 def color_check(x0, y0, x1, y1):
     if (x0 + y0) % 2 == (x1 + y1) % 2:
