@@ -1,0 +1,40 @@
+INFO:root:x0 input
+ERROR:root:y0 not in [1; 8]
+Traceback (most recent call last):
+  File "C:\Users\Danil\Desktop\Учёба\GitHub\Chess\Фт-210007_Иванов_Lab_7.py", line 26, in <module>
+    assert 1 <= y0 <= 8
+AssertionError
+INFO:root:y0 input
+INFO:root:x1 input
+INFO:root:y1 input
+INFO:root:Function call: color_check
+INFO:root:Function call: draw_desk
+INFO:root:the board is drawn successfully the function draw_empty_desk has been called 64 times
+INFO:root:figure input
+INFO:root:wrong figure
+INFO:root:figure input
+INFO:root:Function call: queen_check
+INFO:root:Function call: rook_check
+INFO:root:Function call: bishop_check
+INFO:root:Function call: draw_desk
+INFO:root:the board is drawn successfully the function draw_empty_desk has been called 63 times
+INFO:root:x0 input
+INFO:root:y0 input
+INFO:root:x1 input
+INFO:root:y1 input
+INFO:root:Function call: color_check
+INFO:root:Function call: draw_desk
+INFO:root:the board is drawn successfully the function draw_empty_desk has been called 64 times
+INFO:root:figure input
+INFO:root:Function call: rook_check
+INFO:root:Function call: draw_desk
+INFO:root:the board is drawn successfully the function draw_empty_desk has been called 63 times
+INFO:root:x0 input
+INFO:root:y0 input
+INFO:root:x1 input
+INFO:root:y1 input
+INFO:root:Function call: color_check
+INFO:root:Function call: draw_desk
+INFO:root:the board is drawn successfully the function draw_empty_desk has been called 64 times
+INFO:root:figure input
+INFO:root:Function call: knight_check
