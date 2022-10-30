@@ -36,7 +36,7 @@ ___
 ___
 ![](https://github.com/I-D-S/Chess/blob/main/tests/%D1%82%D0%B5%D1%81%D1%822_%D0%BA%D0%BE%D0%BD%D1%81%D0%BE%D0%BB%D1%8C.png)\
 Рисунок 2.3 Входные данные
-## Тест 1 
+## Тест 3 
 ___
 ![](https://github.com/I-D-S/Chess/blob/main/tests/%D1%82%D0%B5%D1%81%D1%823_%D0%BA%D0%BB%D0%B5%D1%82%D0%BA%D0%B8.png)\
 Рисунок 3.1 Исходные клетки
